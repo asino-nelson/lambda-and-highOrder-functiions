@@ -7,9 +7,9 @@ fun main() {
 
     var carModel: String? = "Mazda"
     if (carModel !is String){
-        println("Car model is unknown")
+        println("Car make is unknown")
     }else{
-        println("Car model is $carModel")
+        println("Car make is $carModel")
     }
 
 
